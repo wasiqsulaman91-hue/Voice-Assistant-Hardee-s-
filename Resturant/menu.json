@@ -1,0 +1,271 @@
+{
+  "restaurant": "Hardee's",
+  "currency": "PKR",
+  "categories": [
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "id": "BG001",
+          "name": "Super Star Burger",
+          "description": "Charbroiled beef patty with cheese, lettuce, tomato, onion, pickles and special sauce.",
+          "price": 1099,
+          "sizes": ["Regular"],
+          "available": true
+        },
+        {
+          "id": "BG002",
+          "name": "Famous Star Burger",
+          "description": "Beef patty with cheese, lettuce, tomato and special sauce.",
+          "price": 949,
+          "sizes": ["Regular"],
+          "available": true
+        },
+        {
+          "id": "BG003",
+          "name": "Mushroom & Swiss Burger",
+          "description": "Beef patty with Swiss cheese and mushroom sauce.",
+          "price": 1149,
+          "sizes": ["Regular"],
+          "available": true
+        },
+        {
+          "id": "BG004",
+          "name": "Big Cheeseburger",
+          "description": "Large beef burger with cheddar cheese.",
+          "price": 899,
+          "sizes": ["Regular"],
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Chicken Burgers",
+      "items": [
+        {
+          "id": "CH001",
+          "name": "Hand-Breaded Chicken Sandwich",
+          "description": "Crispy hand-breaded chicken breast with mayo and lettuce.",
+          "price": 1099,
+          "available": true
+        },
+        {
+          "id": "CH002",
+          "name": "Spicy Chicken Sandwich",
+          "description": "Spicy crispy chicken filet with lettuce and mayo.",
+          "price": 1049,
+          "available": true
+        },
+        {
+          "id": "CH003",
+          "name": "Chicken Fillet Burger",
+          "description": "Classic crispy chicken fillet burger.",
+          "price": 949,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Angus Burgers",
+      "items": [
+        {
+          "id": "AN001",
+          "name": "Original Angus Burger",
+          "description": "100% Angus beef burger with premium toppings.",
+          "price": 1599,
+          "available": true
+        },
+        {
+          "id": "AN002",
+          "name": "Mushroom Angus Burger",
+          "description": "Angus beef with mushroom sauce and Swiss cheese.",
+          "price": 1699,
+          "available": true
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "id": "SD001",
+          "name": "French Fries",
+          "sizes": [
+            {
+              "size": "Small",
+              "price": 299
+            },
+            {
+              "size": "Medium",
+              "price": 399
+            },
+            {
+              "size": "Large",
+              "price": 499
+            }
+          ]
+        },
+        {
+          "id": "SD002",
+          "name": "Curly Fries",
+          "sizes": [
+            {
+              "size": "Regular",
+              "price": 499
+            }
+          ]
+        },
+        {
+          "id": "SD003",
+          "name": "Onion Rings",
+          "sizes": [
+            {
+              "size": "Regular",
+              "price": 449
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "items": [
+        {
+          "id": "CK001",
+          "name": "3 Piece Chicken Tenders",
+          "price": 649
+        },
+        {
+          "id": "CK002",
+          "name": "5 Piece Chicken Tenders",
+          "price": 949
+        },
+        {
+          "id": "CK003",
+          "name": "Chicken Nuggets (6 pcs)",
+          "price": 499
+        },
+        {
+          "id": "CK004",
+          "name": "Chicken Nuggets (10 pcs)",
+          "price": 699
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "id": "DR001",
+          "name": "Soft Drink",
+          "sizes": [
+            {
+              "size": "Small",
+              "price": 199
+            },
+            {
+              "size": "Medium",
+              "price": 249
+            },
+            {
+              "size": "Large",
+              "price": 299
+            }
+          ]
+        },
+        {
+          "id": "DR002",
+          "name": "Mineral Water",
+          "price": 120
+        },
+        {
+          "id": "DR003",
+          "name": "Iced Tea",
+          "price": 299
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "DS001",
+          "name": "Chocolate Shake",
+          "price": 499
+        },
+        {
+          "id": "DS002",
+          "name": "Vanilla Shake",
+          "price": 499
+        },
+        {
+          "id": "DS003",
+          "name": "Strawberry Shake",
+          "price": 499
+        },
+        {
+          "id": "DS004",
+          "name": "Chocolate Sundae",
+          "price": 349
+        }
+      ]
+    },
+    {
+      "name": "Meals",
+      "items": [
+        {
+          "id": "ML001",
+          "name": "Super Star Meal",
+          "includes": [
+            "Super Star Burger",
+            "Medium Fries",
+            "Medium Drink"
+          ],
+          "price": 1499
+        },
+        {
+          "id": "ML002",
+          "name": "Spicy Chicken Meal",
+          "includes": [
+            "Spicy Chicken Sandwich",
+            "Medium Fries",
+            "Medium Drink"
+          ],
+          "price": 1399
+        },
+        {
+          "id": "ML003",
+          "name": "Original Angus Meal",
+          "includes": [
+            "Original Angus Burger",
+            "Medium Fries",
+            "Medium Drink"
+          ],
+          "price": 1999
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "name": "Extra Cheese",
+      "price": 100
+    },
+    {
+      "name": "Extra Patty",
+      "price": 350
+    },
+    {
+      "name": "Extra Bacon",
+      "price": 250
+    },
+    {
+      "name": "Jalapenos",
+      "price": 80
+    },
+    {
+      "name": "Extra Sauce",
+      "price": 50
+    }
+  ]
+}

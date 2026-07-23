@@ -1,0 +1,21 @@
+# Python
+## Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+## Virtual environment
+ai/
+
+## Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE configuration
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
