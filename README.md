@@ -407,7 +407,3 @@ Interested in:
 - Embedded Systems
 
 ---
-
-# License
-
-This project is intended for educational and portfolio purposes.
